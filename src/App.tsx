@@ -68,8 +68,7 @@ const SKILLS: { category: string; items: string[] }[] = [
 
 // ─── Foto: reemplazá este string con el link/ruta de tu foto ──────────────────
 // Ejemplos: "/foto.jpg"  |  "https://i.imgur.com/tuFoto.jpg"
-const PHOTO_URL = "public/IMG_5745.webp"
-
+const PHOTO_URL = "/IMG_5745.webp"
 // ─── Componente de sección animada ────────────────────────────────────────────
 function Section({ children, className = "" }: { children: React.ReactNode; className?: string }) {
   const { ref, visible } = useReveal()
