@@ -34,10 +34,10 @@ const EXPERIENCES = [
 
 const PROJECTS = [
   {
-    title: "Terminal de Punto de Venta",
-    tag: "React · ExpressJS · PostgreSQL",
-    desc: "Desarrollé una aplicación para una hamburguesería que cubre el flujo completo de compra del cliente, incluyendo integración con Mercado Pago, y una interfaz interna para la gestión de comandas.",
-    link: "https://github.com/igna-buffaz21/McRaulo-Back.git",
+    title: "ReportaYa",
+    tag: "React · NodeJS · Express · MongoDB",
+    desc: "Una plataforma que conecta a vecinos y municipalidad para reportar, gestionar y dar seguimiento a incidentes de la ciudad desde un único lugar.",
+    link: "https://www.reportaya.site/",
   },
   {
     title: "Pagina de Torneo de Futbol",
@@ -52,15 +52,15 @@ const PROJECTS = [
     link: "https://github.com/igna-buffaz21/Nube-Back.git",
   },
   {
-    title: "Portfolio",
-    tag: "React",
-    desc: "Esta misma página web.",
-    link: "https://github.com/igna-buffaz21/Portfolio",
+    title: "Terminal de Punto de Venta",
+    tag: "React · ExpressJS · PostgreSQL",
+    desc: "Desarrollé una aplicación para una hamburguesería que cubre el flujo completo de compra del cliente, incluyendo integración con Mercado Pago, y una interfaz interna para la gestión de comandas.",
+    link: "https://github.com/igna-buffaz21/McRaulo-Back.git",
   },
 ]
 
 const SKILLS: { category: string; items: string[] }[] = [
-  { category: "Frontend", items: ["React + Shadcn", "Angular + Material UI", "TailwindCSS"] },
+  { category: "Frontend", items: ["React + Shadcn", "Angular + Material UI", "JavaScript", "TypeScript", "HTML", "CSS", "TailwindCSS"] },
   { category: "Backend", items: ["NodeJS + Express", "NodeJS + NestJS", "C# + .NET", "REST APIs", "SQLServer", "PostgreSQL", "MySQL"] },
   { category: "Herramientas", items: ["Git + GitHub", "Docker", "Figma", "Vercel", "Linux", "SmarterASP.NET", "Railway", "Nginx", "PM2"] },
   { category: "Soft Skills", items: ["Responsabilidad", "Autodidacta", "Comunicación", "Atención al detalle", "Liderazgo", "Trabajo en equipo"] },
